@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(45deg, #1a1a1a, #2a2a4a);
+    color: white;
+    min-height: 100vh;
+}
+.gradient-button {
+    background: linear-gradient(90deg, #ffd89b, #19547b);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+.tech-badge {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.tech-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin: 4px;
+    font-weight: 500;
+}
+
+/* Tags colors */
+.tag-flutter { background-color: #FFF1E6; color: #000; }
+.tag-ios { background-color: #F5F5F5; color: #000; }
+.tag-android { background-color: #FFFBE6; color: #000; }
+.tag-web3 { background-color: #F3E6FF; color: #000; }
+.tag-figma { background-color: #E6FFE6; color: #000; }
+.tag-map { background-color: #F5F5F5; color: #000; }
+.tag-rest { background-color: #FFE6E6; color: #8B0000; }
+.tag-json { background-color: #F5F5F5; color: #000; }
+.tag-codemagic { background-color: #E6F0FF; color: #000; }
+.tag-mvc { background-color: #FFE6E6; color: #8B0000; }
+.tag-sentry { background-color: #F5F5F5; color: #000; }
+.tag-firebase { background-color: #E6FFE6; color: #006400; }

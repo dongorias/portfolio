@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Don Arias Agokoli</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark py-3">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            Don Arias Agokoli
+        </a>
+        <div class="ms-auto">
+            <a href="pdf/cv.pdf"
+               class="btn btn-outline-light me-2"
+               target="_blank"
+               download="CV_DonArias_Agokoli.pdf">
+                Curriculum vitae
+            </a>
+            <a href="#"
+               class="btn btn-dark"
+               onclick="openMail(); return false;">
+                Me contacter
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="container text-center py-5">
+    <h1 class="display-2 mb-4">
+        Développeur Mobile
+    </h1>
+    <p class="lead mb-4">
+        Hey 👋 Je suis Don Arias, un développeur mobile
+        <br>
+        passionné par les applications mobiles et les nouvelles technologies.
+    </p>
+</section>
+
+<!-- Projects Section -->
+<section class="container py-5">
+    <h2 class="text-center mb-5">PROJETS RÉALISÉS</h2>
+    <div class="row g-4">
+        <!-- Project Cards -->
+        <div class="col-md-4">
+            <a href="https://oyabun.io/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-decoration-none">
+
+                <div class="card text-white h-100">
+                    <div class="card-body position-relative overflow-hidden p-0" style="height: 400px;">
+                        <!-- Image -->
+                        <img src="img/oyabun.png" alt="Vercel" class="position-absolute w-100"
+                             style="top: 0; left: 0; object-fit: cover; object-position: top; height: 100%;">
+
+                        <!-- Text content with gradient overlay -->
+                        <div class="position-absolute bottom-0 w-100 p-4"
+                             style="background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.4), transparent);">
+                            <h3 class="mb-3">Oyabun</h3>
+                            <div class="mt-2">
+                                <span class="tech-tag tag-flutter">Flutter</span>
+                                <span class="tech-tag tag-ios">iOS</span>
+                                <span class="tech-tag tag-android">Android</span>
+                                <span class="tech-tag tag-web3">Web3</span>
+                                <span class="tech-tag tag-rest">REST API</span>
+                                <span class="tech-tag tag-mvc">MVC</span>
+                                <span class="tech-tag tag-firebase">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="https://groupeyon.com/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-decoration-none">
+                <div class="card text-white h-100">
+                    <div class="card-body position-relative overflow-hidden p-0" style="height: 400px;">
+                        <!-- Image -->
+                        <img src="img/eyon.png" alt="Vercel" class="position-absolute w-100"
+                             style="top: 0; left: 0; object-fit: cover; object-position: top; height: 100%;">
+
+                        <!-- Text content with gradient overlay -->
+                        <div class="position-absolute bottom-0 w-100 p-4"
+                             style="background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.4), transparent);">
+                            <h3 class="mb-3">Eyon</h3>
+                            <div class="mt-2">
+                                <span class="tech-tag tag-flutter">Flutter</span>
+                                <span class="tech-tag tag-ios">iOS</span>
+                                <span class="tech-tag tag-android">Android</span>
+                                <span class="tech-tag tag-rest">REST API</span>
+                                <span class="tech-tag tag-codemagic">Codemagic</span>
+                                <span class="tech-tag tag-map">Google Maps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white h-100">
+                <div class="card-body position-relative overflow-hidden p-0" style="height: 400px;">
+                    <!-- Image -->
+                    <img src="img/ayooka.png" alt="Vercel" class="position-absolute w-100"
+                         style="top: 0; left: 0; object-fit: cover; object-position: top; height: 100%;">
+
+                    <!-- Text content with gradient overlay -->
+                    <div class="position-absolute bottom-0 w-100 p-4"
+                         style="background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.4), transparent);">
+                        <h3 class="mb-3">Ayooka</h3>
+                        <div class="mt-2">
+                            <span class="tech-tag tag-flutter">Flutter</span>
+                            <span class="tech-tag tag-ios">iOS</span>
+                            <span class="tech-tag tag-android">Android</span>
+                            <span class="tech-tag tag-rest">REST API</span>
+                            <span class="tech-tag tag-mvc">MVC</span>
+                            <span class="tech-tag tag-figma">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white h-100">
+                <div class="card-body position-relative overflow-hidden p-0" style="height: 400px;">
+                    <!-- Image -->
+                    <img src="img/neosar.png" alt="Vercel" class="position-absolute w-100"
+                         style="top: 0; left: 0; object-fit: cover; object-position: top; height: 100%;">
+
+                    <!-- Text content with gradient overlay -->
+                    <div class="position-absolute bottom-0 w-100 p-4"
+                         style="background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.4), transparent);">
+                        <p class="text-muted mb-1">Développeur mobile</p>
+                        <h3 class="mb-3">Neosar</h3>
+                        <div class="mt-2">
+                            <span class="tech-tag tag-flutter">Flutter</span>
+                            <span class="tech-tag tag-ios">iOS</span>
+                            <span class="tech-tag tag-android">Android</span>
+                            <span class="tech-tag tag-web3">Web3</span>
+                            <span class="tech-tag tag-rest">REST API</span>
+                            <span class="tech-tag tag-mvc">MVC</span>
+                            <span class="tech-tag tag-firebase">Firebase and Crashlytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white h-100">
+                <div class="card-body position-relative overflow-hidden p-0" style="height: 400px;">
+                    <!-- Image -->
+                    <img src="img/hudumas.png" alt="Vercel" class="position-absolute w-100"
+                         style="top: 0; left: 0; object-fit: cover; object-position: top; height: 100%;">
+
+                    <!-- Text content with gradient overlay -->
+                    <div class="position-absolute bottom-0 w-100 p-4"
+                         style="background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.4), transparent);">
+                        <h3 class="mb-3">Hudumas</h3>
+                        <div class="mt-2">
+                            <span class="tech-tag tag-flutter">Flutter</span>
+                            <span class="tech-tag tag-ios">iOS</span>
+                            <span class="tech-tag tag-android">Android</span>
+                            <span class="tech-tag tag-web3">Web3</span>
+                            <span class="tech-tag tag-rest">REST API</span>
+                            <span class="tech-tag tag-mvc">MVC</span>
+                            <span class="tech-tag tag-firebase">Firebase and Crashlytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="container py-5">
+    <h2 class="text-center mb-5">A PROPOS</h2>
+    <div class="text-center">
+        <h1 class="display-4 mb-4">
+            Je suis un développeur
+            <br>
+            ayant pour objectif de créer
+            <br>
+            des expériences utilisateurs
+            <br>
+            fluides et sans bugs.
+        </h1>
+    </div>
+
+
+</section>
+
+<section class="container py-5">
+
+    <!-- Skills Grid -->
+    <div class="row g-5">
+        <!-- First Row -->
+        <div class="col-md-4">
+            <p class="text-light">
+                Voici quelques informations sur
+                <br>
+                les langages et les technologies
+                <br>
+                que j'utilise actuellement.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2 class="display-6">Flutter</h2>
+        </div>
+        <div class="col-md-4">
+            <h2 class="display-6">Dart</h2>
+        </div>
+
+        <!-- Second Row -->
+        <div class="col-md-4">
+            <h2 class="display-6">Jetpack Composer</h2>
+        </div>
+        <div class="col-md-4">
+            <h2 class="display-6">Swift</h2>
+        </div>
+        <div class="col-md-4 d-flex align-items-center justify-content">
+            <a href="https://github.com/dongorias"
+               target="_blank"
+               class="gradient-button text-white text-decoration-none">
+                Voir mon GitHub
+            </a>
+        </div>
+        <div class="col-md-4">
+            <h2 class="display-6">Firebase</h2>
+        </div>
+        <!-- Third Row -->
+        <div class="col-md-4">
+            <h2 class="display-6">Android Studio</h2>
+        </div>
+        <div class="col-md-4">
+            <h2 class="display-6">Xcode</h2>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section class="container py-5 text-center">
+    <h2>Prêt à développer votre prochain projet ?</h2>
+    <!-- Social Links -->
+    <div class="row g-4 mt-5">
+        <div class="col-md-6">
+            <h3>X (ex-Twitter) </h3>
+            <p>don_gorias</p>
+            <a href="https://twitter.com/don_gorias"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="gradient-button text-white text-decoration-none">
+                Me contacter sur X
+            </a>
+        </div>
+        <div class="col-md-6">
+            <h3>LinkedIn</h3>
+            <p>in/donarias</p>
+            <a href="https://www.linkedin.com/in/donarias/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="gradient-button text-white text-decoration-none">
+                Voir mon LinkedIn
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="container py-4">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <p class="mb-0">© Don Arias 2025. Tout droits réservés.</p>
+            <p class="text-light mb-0 small">Design inspiré de Huort Louis</p>
+        </div>
+        <div class="col-md-6 text-end">
+            <a href="pdf/cv.pdf"
+               class="btn btn-outline-light me-2"
+               target="_blank"
+               download="CV_DonArias_Agokoli.pdf">
+                Curriculum vitae
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
